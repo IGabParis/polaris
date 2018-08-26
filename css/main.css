@@ -1,0 +1,136 @@
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+*{
+	font-family: "Roboto", Arial;
+}
+
+body{
+	background: #f2f2f2;
+	font-size: 16px;
+	color:#555;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: 300;
+	color:#609cd3;
+}
+
+h1{
+	font-size: 36px;
+	font-weight: bold;
+}
+
+h2{
+	color: #4A235A;
+	font-weight: bold;
+	font-size: 32px;
+}
+
+h3{
+
+	color: #95a5a6;
+
+}
+
+h4{
+
+	color: #4A235A;
+	text-align: center;
+
+}
+
+h5{
+
+	color: #95a5a6;
+	text-align: justify;
+
+}
+
+p{
+	line-height: 30px;
+	margin-bottom: 25px;
+}
+
+a{
+	color:#609cd3;
+}
+
+a:hover a:focus{
+	color:#4A235A !important;
+}
+
+hr{
+	display:block;
+	height: 1px;
+	border:0;
+	border-top:1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.navbar-default{
+	background: rgba(0,0,0,.8);
+	border-color: transparent;
+}
+
+.navbar-default .navbar-brand{
+	color:#fff;
+}
+
+.navbar-default .navbar-brand:hover{
+	color:#609cd3;
+}
+
+.navbar-default .navbar-nav li a{
+	color:#fff;
+}
+
+.navbar-default .navbar-nav li a:hover{
+	color:#609cd3;
+}
+
+header{
+	background-color: #4A235A;
+	background-size: cover;
+	width: 100%;
+	min-height: 530px;
+	padding-top:75px;
+}
+
+header h1{
+	color: #fff;
+	margin-bottom: 15px;
+	letter-spacing: 1px;
+	margin-top: 20px;
+}
+
+.centrado{
+	margin: 40px;
+	text-align: center;
+}
+
+i{
+	color:#609cd3;
+	margin:8px;
+}
+
+.carouse-indicators li{
+	color: #000;
+}
+
+.img-responsive{
+	min-width: 300px;
+	max-width: 500px;
+	min-height: 300px;
+	max-height: 350px;
+}
+
+@media screen and (max-width: 768px){
+	header h1{
+		margin: 20px 0;
+		font-size: 24px;
+	}
+}
